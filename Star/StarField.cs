@@ -41,14 +41,15 @@ namespace Star
                 drawBrush.Color = Color.FromArgb(rcolor, gcolor, bcolor);
 
                 xcoord = randNum.Next(1, 300);
-                ycoord = randNum.Next(1, 300); // kjhkjlh
+                ycoord = randNum.Next(1, 300);
                 size = randNum.Next(1, 10);
 
                 g.FillEllipse(drawBrush, xcoord, ycoord, size, size);
 
                 w++;
             }
-
         }
     }
 }
+
+        
